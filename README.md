@@ -1,6 +1,6 @@
 # Andrew Ng Machine Learning Course Exercises
 
-Implementation of the Machine Learning exercises of an open course by
+Python implementation of the Machine Learning exercises of an open course by
 Standford University by Andrew Ng available at coursera.org.
 https://www.coursera.org/learn/machine-learning
 
@@ -13,16 +13,17 @@ with exX_ where X is a digit.
 After each class session there... you can run and study related
 Python code implementation included in this project.
   
-DEPENDENCIES
+##### Dependencies
+
   * Tested on Python 64 bit 3.5
   * numpy for Python 64 bit 3.5
   * scipy Python 64 bit 3.5
   * It is suggested to install "Anaconda 64 bit Python 3.5" to get Python environment.
   
-HOW TO RUN
+##### How to run
   * $> python main.py
   
-CODE ORGANIZATION
+##### Code organization
   * Course test data files already included under "./data" directory.
   * Usually each algorithm is in its own Python class.
   * Supervised learning algorithms are under "./supervised" package.
@@ -32,7 +33,7 @@ CODE ORGANIZATION
   * Scripts that execute and test the algorithms are under "./exercises/coursera" package.
   * main.py scripts starts the execution.
   
-NOTES
+##### Notes
   * "Anaconda 64 bit Python 3.5" was installed to get Python environment.
   * Testing was done on Windows 7 environment but since it is Python other platforms should not be a problem.
   * Development was done in Visual Studio 2013 hence a workspace "MachineLearning.sln"

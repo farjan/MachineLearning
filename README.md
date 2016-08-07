@@ -2,6 +2,7 @@
 OBJECTIVE
   Implementation of the Machine Learning exercises of an open course by
   Standford University by Andrew Ng available at coursera.org.
+  https://www.coursera.org/learn/machine-learning
   
 SUGGESTION
   In order to get most out of this Python exercises implementation,

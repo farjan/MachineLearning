@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c7b17369-456b-41e5-ae2e-b3cfb1d9168e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MachineLearning</Name>
+    <RootNamespace>MachineLearning</RootNamespace>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="exercises\coursera\ex1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\ex8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\coursera\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercises\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main.py" />
+    <Compile Include="supervised\linear_regression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\linear_regression_regularized.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\logistic_regression_non_vectorized_newton.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\logistic_regression_non_vectorized_newton_regularized_poly6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\logistic_regression_regularized_multiclass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\neural_networks\digit_image_nn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\neural_networks\forward_propagation.py" />
+    <Compile Include="supervised\neural_networks\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\svm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="supervised\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="unsupervised\anomaly_detector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="unsupervised\kmeans.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="unsupervised\recommender_sys.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="unsupervised\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\displaydata.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\label_mapping.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="exercises\" />
+    <Folder Include="exercises\coursera\" />
+    <Folder Include="supervised\" />
+    <Folder Include="supervised\neural_networks\" />
+    <Folder Include="unsupervised\" />
+    <Folder Include="utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\age_height.dat" />
+    <Content Include="data\bird_small.png" />
+    <Content Include="data\emailSample1.txt" />
+    <Content Include="data\emailSample2.txt" />
+    <Content Include="data\ex1data1.dat" />
+    <Content Include="data\ex1data2.dat" />
+    <Content Include="data\ex2data1.dat" />
+    <Content Include="data\ex2data2.dat" />
+    <Content Include="data\ex3data1_X.dat" />
+    <Content Include="data\ex3data1_y.dat" />
+    <Content Include="data\ex3weights_theta1.dat" />
+    <Content Include="data\ex3weights_theta2.dat" />
+    <Content Include="data\ex4weights_theta1.dat" />
+    <Content Include="data\ex4weights_theta2.dat" />
+    <Content Include="data\ex5data1_cv.dat" />
+    <Content Include="data\ex5data1_test.dat" />
+    <Content Include="data\ex5data1_train.dat" />
+    <Content Include="data\ex5Log.dat" />
+    <Content Include="data\ex6data1_X.dat" />
+    <Content Include="data\ex6data1_y.dat" />
+    <Content Include="data\ex6data2_X.dat" />
+    <Content Include="data\ex6data2_y.dat" />
+    <Content Include="data\ex6data3_X.dat" />
+    <Content Include="data\ex6data3_y.dat" />
+    <Content Include="data\ex6data_spam_test_X.dat" />
+    <Content Include="data\ex6data_spam_test_y.dat" />
+    <Content Include="data\ex6data_spam_train_X.dat" />
+    <Content Include="data\ex6data_spam_train_y.dat" />
+    <Content Include="data\ex7data1.dat" />
+    <Content Include="data\ex7data2.dat" />
+    <Content Include="data\ex7faces.dat" />
+    <Content Include="data\ex8data1_X.dat" />
+    <Content Include="data\ex8data1_Xval.dat" />
+    <Content Include="data\ex8data1_yval.dat" />
+    <Content Include="data\ex8data2_X.dat" />
+    <Content Include="data\ex8data2_Xval.dat" />
+    <Content Include="data\ex8data2_yval.dat" />
+    <Content Include="data\ex8_movieParams_num_features.dat" />
+    <Content Include="data\ex8_movieParams_num_movies.dat" />
+    <Content Include="data\ex8_movieParams_num_users.dat" />
+    <Content Include="data\ex8_movieParams_Theta.dat" />
+    <Content Include="data\ex8_movieParams_X.dat" />
+    <Content Include="data\ex8_movies_R.dat" />
+    <Content Include="data\ex8_movies_Y.dat" />
+    <Content Include="data\movie_ids.txt" />
+    <Content Include="data\spamSample1.txt" />
+    <Content Include="data\spamSample2.txt" />
+    <Content Include="data\student_score_admission_chance.dat" />
+    <Content Include="data\vocab.txt" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

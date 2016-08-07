@@ -1,18 +1,17 @@
+# Andrew Ng Machine Learning Course Exercises
 
-OBJECTIVE
-  Implementation of the Machine Learning exercises of an open course by
-  Standford University by Andrew Ng available at coursera.org.
-  https://www.coursera.org/learn/machine-learning
-  
-SUGGESTION
-  In order to get most out of this Python exercises implementation,
-  it is recommended to first take course video lectures each lecture
-  comes with an exercise description PDF and Octave skeleton code
-  please go through that. Specially go through the Octave scripts
-  such as ex1.m, ex2.m...,ex8_cofi.m, ex8.m etc, starting
-  with exX_ where X is a digit.
-  After each class session there... you can run and study related
-  Python code implementation included in this project.
+Implementation of the Machine Learning exercises of an open course by
+Standford University by Andrew Ng available at coursera.org.
+https://www.coursera.org/learn/machine-learning
+
+In order to get most out of this Python exercises implementation,
+it is recommended to first take course video lectures each lecture
+comes with an exercise description PDF and Octave skeleton code
+please go through that. Specially go through the Octave scripts
+such as ex1.m, ex2.m...,ex8_cofi.m, ex8.m etc, starting
+with exX_ where X is a digit.
+After each class session there... you can run and study related
+Python code implementation included in this project.
   
 DEPENDENCIES
   * Tested on Python 64 bit 3.5

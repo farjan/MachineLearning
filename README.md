@@ -12,6 +12,7 @@ such as ex1.m, ex2.m...,ex8_cofi.m, ex8.m etc, starting
 with exX_ where X is a digit.
 After each class session there... you can run and study related
 Python code implementation included in this project.
+
   
 ##### Dependencies
 

@@ -1,5 +1,4 @@
-# Stanford University
-# Andrew Ng Machine Learning Course Exercises and Algorithms
+# Stanford University Machine Learning Course Exercises and Algorithms - By Andrew Ng 
 
 Python implementation of the Machine Learning exercises of an open course by
 Standford University by Andrew Ng available at coursera.org.

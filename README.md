@@ -12,7 +12,9 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * $> python -m venv ml_course_env
   * $> source ml_course_env/bin/activate
   * $> pip install -r requirements_ml.txt
-  * $> python main.py or run Jupyter notebooks
+  * $> python main.py  which is under ml/src
+  * or run Jupyter notebook for each exercise indivitually, each notebook
+    contains all the related exercise code
   
 #### Code organization
   * Course test data files already included under **ml/data** directory.

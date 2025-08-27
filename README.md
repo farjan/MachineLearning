@@ -29,7 +29,7 @@ Lectures and exercises PDFs are available under ml/docs directory.
       [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%206%20Support%20Vector%20Machines.ipynb)
   * Programming Exercise 7: **K-means Clustering and Principal Component Analysis**
       [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex7.pdf)
-      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%207%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/3d961fe1d41250ee5eaa3dc08a141c7ede06364a/ml/Exercise%207%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb)
   * Programming Exercise 8: **Anamoly Detection Recommender Systems**
       [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex8.pdf)
       [Notebook]()

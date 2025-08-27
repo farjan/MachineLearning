@@ -120,7 +120,7 @@ class LogisticRegression(object):
       (vector with values of 0, 1): Predicted labels
       for each test example in the matrix.
     '''
-    labels = np.zeros((X.shape[0], 1), dtype=np.int)
+    labels = np.zeros((X.shape[0], 1), dtype=int)
     # Iterate over rows.
     for i, xi in enumerate(X):
       xi = np.reshape(xi, (len(xi), 1))

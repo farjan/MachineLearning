@@ -15,23 +15,23 @@ class Exercise8(object):
     '''
     Initialize instance parameters.
     '''
-    self.datafname1_X = 'data/ex8data1_X.dat'
-    self.datafname1_Xval = 'data/ex8data1_Xval.dat'
-    self.datafname1_yval = 'data/ex8data1_yval.dat'
+    self.datafname1_X = '../data/ex8data1_X.dat'
+    self.datafname1_Xval = '../data/ex8data1_Xval.dat'
+    self.datafname1_yval = '../data/ex8data1_yval.dat'
 
-    self.datafname2_X = 'data/ex8data2_X.dat'
-    self.datafname2_Xval = 'data/ex8data2_Xval.dat'
-    self.datafname2_yval = 'data/ex8data2_yval.dat'
+    self.datafname2_X = '../data/ex8data2_X.dat'
+    self.datafname2_Xval = '../data/ex8data2_Xval.dat'
+    self.datafname2_yval = '../data/ex8data2_yval.dat'
 
-    self.datafname_movie_ids = 'data/movie_ids.txt'
-    self.datafname_ex8_movies_Y = 'data/ex8_movies_Y.dat'
-    self.datafname_ex8_movies_R = 'data/ex8_movies_R.dat'
+    self.datafname_movie_ids = '../data/movie_ids.txt'
+    self.datafname_ex8_movies_Y = '../data/ex8_movies_Y.dat'
+    self.datafname_ex8_movies_R = '../data/ex8_movies_R.dat'
 
-    self.datafname_ex8_movieparams_X = 'data/ex8_movieParams_X.dat'
-    self.datafname_ex8_movieparams_Theta = 'data/ex8_movieParams_Theta.dat'
-    self.datafname_ex8_movieparams_num_users = 'data/ex8_movieParams_num_users.dat'
-    self.datafname_ex8_movieparams_num_movies = 'data/ex8_movieParams_num_movies.dat'
-    self.datafname_ex8_movieparams_num_features = 'data/ex8_movieParams_num_features.dat'
+    self.datafname_ex8_movieparams_X = '../data/ex8_movieParams_X.dat'
+    self.datafname_ex8_movieparams_Theta = '../data/ex8_movieParams_Theta.dat'
+    self.datafname_ex8_movieparams_num_users = '../data/ex8_movieParams_num_users.dat'
+    self.datafname_ex8_movieparams_num_movies = '../data/ex8_movieParams_num_movies.dat'
+    self.datafname_ex8_movieparams_num_features = '../data/ex8_movieParams_num_features.dat'
     
 
   def execute(self):

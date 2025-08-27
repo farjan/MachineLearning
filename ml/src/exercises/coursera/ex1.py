@@ -34,7 +34,7 @@ class Exercise1(object):
 
     print('\nPart 2: Plotting...')
     print('Loading data...')
-    lr = lnr_reg.LinearRegression('data/ex1data1.dat')
+    lr = lnr_reg.LinearRegression('../data/ex1data1.dat')
     print('Showing data tail...')
     lr.tail()
     lr.plot_single_feature(0, 'Population of City in 10,000s', 'Profit in $10,000s')
@@ -71,7 +71,7 @@ class Exercise1(object):
     print('\nExecuting batch of optional exercises...')
     print('Part 1: Feature Normalization...')
     print('Loading data...')
-    lr = lnr_reg.LinearRegression('data/ex1data2.dat')
+    lr = lnr_reg.LinearRegression('../data/ex1data2.dat')
     print('Showing data tail...')
     lr.tail(10)
 
@@ -101,7 +101,7 @@ class Exercise1(object):
     print('Solving with normal equations...')
     # Create new object this time train using
     # normal equations method.
-    lr_normal = lnr_reg.LinearRegression('data/ex1data2.dat')
+    lr_normal = lnr_reg.LinearRegression('../data/ex1data2.dat')
     lr_normal.train_normal_eq_method()
 
     print('Theta computed from the normal equations\n {}'.format(lr_normal.min_theta))
@@ -117,7 +117,7 @@ class Exercise1(object):
     '''
     print("\nExercise - Linear Regression - Available at instructor's course website...")
     print("http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex2/ex2.html\n")
-    lr = lnr_reg.LinearRegression('data/age_height.dat')
+    lr = lnr_reg.LinearRegression('../data/age_height.dat')
 
     print('Input data file tail')
     lr.tail()

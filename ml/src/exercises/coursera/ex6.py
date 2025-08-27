@@ -17,16 +17,16 @@ class Exercise6(object):
     '''
     Initialize instance parameters.
     '''
-    self.datafname1_X = 'data/ex6data1_X.dat'
-    self.datafname1_y = 'data/ex6data1_y.dat'
-    self.datafname2_X = 'data/ex6data2_X.dat'
-    self.datafname2_y = 'data/ex6data2_y.dat'
-    self.datafname3_X = 'data/ex6data3_X.dat'
-    self.datafname3_y = 'data/ex6data3_y.dat'
+    self.datafname1_X = '../data/ex6data1_X.dat'
+    self.datafname1_y = '../data/ex6data1_y.dat'
+    self.datafname2_X = '../data/ex6data2_X.dat'
+    self.datafname2_y = '../data/ex6data2_y.dat'
+    self.datafname3_X = '../data/ex6data3_X.dat'
+    self.datafname3_y = '../data/ex6data3_y.dat'
 
-    self.fname_email_sample1 = 'data/emailSample1.txt'
-    self.fname_spam_train_X  = 'data/ex6data_spam_train_X.dat'
-    self.fname_spam_train_y = 'data/ex6data_spam_train_y.dat'
+    self.fname_email_sample1 = '../data/emailSample1.txt'
+    self.fname_spam_train_X  = '../data/ex6data_spam_train_X.dat'
+    self.fname_spam_train_y = '../data/ex6data_spam_train_y.dat'
     
 
   def execute(self):
@@ -241,7 +241,7 @@ class Exercise6(object):
       (dict): Dictionary of the words.
     '''
     vocab = {}
-    f = open('data/vocab.txt')
+    f = open('../data/vocab.txt')
 
     for l in f:
       (idx, word) = l.split()

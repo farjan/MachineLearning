@@ -18,10 +18,10 @@ class Exercise7(object):
     '''
     Initialize instance parameters.
     '''
-    self.datafname1 = 'data/ex7data1.dat'
-    self.datafname2 = 'data/ex7data2.dat'
-    self.birdimg_fname = 'data/bird_small.png'
-    self.ex7faces = 'data/ex7faces.dat'
+    self.datafname1 = '../data/ex7data1.dat'
+    self.datafname2 = '../data/ex7data2.dat'
+    self.birdimg_fname = '../data/bird_small.png'
+    self.ex7faces = '../data/ex7faces.dat'
     
 
   def execute(self):

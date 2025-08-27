@@ -38,9 +38,9 @@ class Exercise3(object):
     print('Part 1: Loading and visualizing data...')
 
     # Read training examples matrix size is m x n.
-    M = np.loadtxt('data/ex3data1_X.dat', delimiter=',')
+    M = np.loadtxt('../data/ex3data1_X.dat', delimiter=',')
     # Must be array of size 'M.rows'.
-    y = np.loadtxt('data/ex3data1_y.dat', delimiter=',', dtype='int');
+    y = np.loadtxt('../data/ex3data1_y.dat', delimiter=',', dtype='int');
     print('M {}'.format(M.shape))
     print('y {}'.format(y.shape))
 
@@ -91,11 +91,11 @@ class Exercise3(object):
 
     # Read pre trained theta1 parameters matrix is 25x401 
     # but we transpose hence shape=401x25.
-    theta1 = np.transpose(np.loadtxt('data/ex3weights_theta1.dat', delimiter=','))
+    theta1 = np.transpose(np.loadtxt('../data/ex3weights_theta1.dat', delimiter=','))
 
     # Read pre trained theta1 parameters matrix is 26x10 
     # but we transpose hence shape=26x10.
-    theta2 = np.transpose(np.loadtxt('data/ex3weights_theta2.dat', delimiter=','))
+    theta2 = np.transpose(np.loadtxt('../data/ex3weights_theta2.dat', delimiter=','))
 
     print('Parameters after transpose.')
     print('theta1 {}'.format(theta1.shape))

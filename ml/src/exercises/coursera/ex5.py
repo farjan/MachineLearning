@@ -15,9 +15,9 @@ class Exercise5(object):
     '''
     Initialize instance parameters.
     '''
-    self.datafname_train = 'data/ex5data1_train.dat'
-    self.datafname_cv = 'data/ex5data1_cv.dat'
-    self.datafname_test = 'data/ex5data1_test.dat'
+    self.datafname_train = '../data/ex5data1_train.dat'
+    self.datafname_cv = '../data/ex5data1_cv.dat'
+    self.datafname_test = '../data/ex5data1_test.dat'
 
 
   def execute(self):

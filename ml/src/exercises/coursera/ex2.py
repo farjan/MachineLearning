@@ -33,7 +33,7 @@ class Exercise2(object):
     '''
     print('Part 1: Plotting...')
     print('Loading data...')
-    datafname = 'data/ex2data1.dat'
+    datafname = '../data/ex2data1.dat'
     lgr = lg_reg_nreg.LogisticRegression(datafname)
     print('Plotting data with + indicating (y = 1) examples and o ' 'indicating (y = 0) examples.')
     lgr.plot_scatter(0, 1, 'Exam 1 score', y_label='Exam 2 score')
@@ -74,7 +74,7 @@ class Exercise2(object):
           ' If you are interested how to use fmin_XX functions for optimization' +
           ' please see class LogisticRegRegularizedMulticlass.\n')
 
-    datafname = 'data/ex2data2.dat'
+    datafname = '../data/ex2data2.dat'
     plot_scatter = True
 
     print('Part 1, 2: Load data and map features to polynomial 6...')
@@ -110,7 +110,7 @@ class Exercise2(object):
     print("\nExercise - Logistic Regression and Newton's Method." + 
           " - Available at instructor's course website...")
     print("http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex4/ex4.html\n")
-    logr = lg_reg_nreg.LogisticRegression('data/student_score_admission_chance.dat')
+    logr = lg_reg_nreg.LogisticRegression('../data/student_score_admission_chance.dat')
     print('Minimized Theta values after training with iteration=7.')
     logr.train()
 
@@ -134,7 +134,7 @@ class Exercise2(object):
     print("http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex5/ex5.html\n")
     print("Newton's Method Regularization.")
 
-    datafname = 'data/ex5Log.dat'
+    datafname = '../data/ex5Log.dat'
     lmda = [0, 1, 10]
     plot_scatter = True
     for l in lmda:

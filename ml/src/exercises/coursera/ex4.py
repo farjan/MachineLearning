@@ -38,10 +38,10 @@ class Exercise4(object):
 
     # Read training examples matrix size is m x n.
     # Images data is same as exercise 3.
-    M = np.loadtxt('data/ex3data1_X.dat', delimiter=',')
+    M = np.loadtxt('../data/ex3data1_X.dat', delimiter=',')
     # Must be array of size 'M.rows'.
     # Images data is same as exercise 3.
-    y = np.loadtxt('data/ex3data1_y.dat', delimiter=',', dtype='int')
+    y = np.loadtxt('../data/ex3data1_y.dat', delimiter=',', dtype='int')
     print('M {}'.format(M.shape))
     print('y {}'.format(y.shape))
 
@@ -54,10 +54,10 @@ class Exercise4(object):
     print('\nPart 2: Loading saved neural network parameters...')
 
     # Read pre trained theta1 parameters matrix.
-    theta1 = np.loadtxt('data/ex4weights_theta1.dat', delimiter=',')
+    theta1 = np.loadtxt('../data/ex4weights_theta1.dat', delimiter=',')
 
     # Read pre trained theta1 parameters matrix.
-    theta2 = np.loadtxt('data/ex4weights_theta2.dat', delimiter=',')
+    theta2 = np.loadtxt('../data/ex4weights_theta2.dat', delimiter=',')
 
     print('theta1 {}'.format(theta1.shape))
     print('theta2 {}'.format(theta2.shape))

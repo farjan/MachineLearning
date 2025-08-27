@@ -133,7 +133,7 @@ class LogisticRegRegularizedPoly6(object):
       (vector with values of 0, 1): Predicted labels
       for each test example in the matrix.
     '''
-    labels = np.zeros((X.shape[0], 1), dtype=np.int)
+    labels = np.zeros((X.shape[0], 1), dtype=int)
     # Iterate over rows.
     for i, xi in enumerate(X):
       prob = self.predict(xi[0], xi[1])

@@ -31,7 +31,7 @@ Lectures and exercises PDFs are available under ml/docs directory.
 #### List of exercises
   * Programming Exercise 1: Linear Regression
     [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex1.pdf)
-    [Notebook](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/Exercise%201.%20Linear%20Regression%20with%20multiple%20variables%20-%20non%20regularized.ipynb)
+    [Notebook](https://github.com/farjan/MachineLearning/blob/600104cc1c44a47f6c2a1f0209e6ee0af583280c/ml/Exercise%201.%20Linear%20Regression%20with%20multiple%20variables%20-%20non%20regularized.ipynb)
   * [Programming Exercise 2: Logistic Regression PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex2.pdf)
   * [Programming Exercise 3: Multiclass Classification and Neural Networks PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex3.pdf)
   * [Programming Exercise 4: Neural Networks Learning PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex4.pdf)

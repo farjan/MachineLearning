@@ -27,3 +27,6 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * Exercises solutions are under **src/exercises/coursera** package.
   * main.py scripts starts the execution of all exercises.
   * Although **notebooks also exist** for each exercise under **ml/** directory
+
+#### List of exercises
+  * [Programming Exercise 1: Linear Regression] https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex1.pdf

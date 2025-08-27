@@ -30,12 +30,26 @@ Lectures and exercises PDFs are available under ml/docs directory.
 
 #### List of exercises
   * Programming Exercise 1: Linear Regression
-    [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex1.pdf)
-    [Notebook](https://github.com/farjan/MachineLearning/blob/600104cc1c44a47f6c2a1f0209e6ee0af583280c/ml/Exercise%201.%20Linear%20Regression%20with%20multiple%20variables%20-%20non%20regularized.ipynb)
-  * [Programming Exercise 2: Logistic Regression PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex2.pdf)
-  * [Programming Exercise 3: Multiclass Classification and Neural Networks PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex3.pdf)
-  * [Programming Exercise 4: Neural Networks Learning PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex4.pdf)
-  * [Programming Exercise 5: Regularized Linear Regression and Bias v.s Variance PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex5.pdf)
-  * [Programming Exercise 6: Support Vector Machine PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex6.pdf)
-  * [Programming Exercise 7: K-means Clustering and Principal Component Analysis PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex7.pdf)
-  * [Programming Exercise 8: Anamoly Detection Recommender Systems PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex8.pdf)
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex1.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/600104cc1c44a47f6c2a1f0209e6ee0af583280c/ml/Exercise%201.%20Linear%20Regression%20with%20multiple%20variables%20-%20non%20regularized.ipynb)
+  * [Programming Exercise 2: Logistic Regression]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex2.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%202%20Logistic%20Regression.ipynb)
+  * [Programming Exercise 3: Multiclass Classification and Neural Networks]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex3.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%203%20Multi-class%20Classification%20and%20Neural%20Networks.ipynb)
+  * [Programming Exercise 4: Neural Networks Learning]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex4.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%204%20Neural%20Networks%20Learning.ipynb)
+  * [Programming Exercise 5: Regularized Linear Regression and Bias v.s Variance]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex5.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%205%20Regularized%20Linear%20Regression%20and%20Bias%20v.s.%20Variance.ipynb)
+  * [Programming Exercise 6: Support Vector Machine]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex6.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%206%20Support%20Vector%20Machines.ipynb)
+  * [Programming Exercise 7: K-means Clustering and Principal Component Analysis]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex7.pdf)
+      [Notebook](https://github.com/farjan/MachineLearning/blob/afd6282de627242435a81aa14a716a5d2595dd5b/ml/Exercise%207%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb)
+  * [Programming Exercise 8: Anamoly Detection Recommender Systems]
+      [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex8.pdf)
+      [Notebook]()

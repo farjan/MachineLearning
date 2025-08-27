@@ -29,7 +29,7 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * Although **notebooks also exist** for each exercise under **ml/** directory
 
 #### List of exercises
-  * [Programming Exercise 1: Linear Regression]
+  * Programming Exercise 1: Linear Regression
     [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex1.pdf)
     [Notebook](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/Exercise%201.%20Linear%20Regression%20with%20multiple%20variables%20-%20non%20regularized.ipynb)
   * [Programming Exercise 2: Logistic Regression PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex2.pdf)

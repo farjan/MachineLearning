@@ -15,13 +15,13 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * $> python main.py or run Jupyter notebooks
   
 ##### Code organization
-  * Course test data files already included under "ml/data" directory.
-  * Course lectures and exercises included under "ml/docs" directory.
+  * Course test data files already included under **ml/data** directory.
+  * Course lectures and exercises included under **ml/docs** directory.
   * Usually each algorithm is in its own Python class.
-  * Supervised learning algorithms are under "ml/src/supervised" package.
-  * Unsupervised learning algorithm are under "ml/src/unsupervised" package.
-  * Neural Networks algorithms are under "ml/src/supervised/neural_networks" package.
-  * Some utility routines are under "ml/src/utils" package.
-  * Exercises solutions are under "src/exercises/coursera" package.
+  * Supervised learning algorithms are under **ml/src/supervised** package.
+  * Unsupervised learning algorithm are under **ml/src/unsupervised** package.
+  * Neural Networks algorithms are under **ml/src/supervised/neural_networks** package.
+  * Some utility routines are under **ml/src/utils** package.
+  * Exercises solutions are under **src/exercises/coursera** package.
   * main.py scripts starts the execution of all exercises.
-  * Although **Notebooks also exist** for each exercise under "ml/" directory
+  * Although **notebooks also exist** for each exercise under **ml/** directory

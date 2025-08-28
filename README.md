@@ -53,3 +53,6 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * Exercises solutions are under **src/exercises/coursera** package.
   * main.py scripts starts the execution of all exercises.
   * Although **notebooks also exist** for each exercise under **ml/** directory
+
+#### Course lectures
+  * [Lectures PDFs](https://github.com/farjan/MachineLearning/tree/35084a05198e7130f96cd2fd5f909cd497cd33e5/ml/docs/lectures)

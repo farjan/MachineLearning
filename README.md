@@ -33,6 +33,9 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * Programming Exercise 8: **Anamoly Detection Recommender Systems**
       [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex8.pdf)
       [Notebook](https://github.com/farjan/MachineLearning/blob/750c4af64268112e22e6b8e9ba2443463d2b818a/ml/Exercise%208%20Anomaly%20Detection%20and%20Recommender%20Systems.ipynb)
+
+#### Course lectures
+  * [Lectures PDFs](https://github.com/farjan/MachineLearning/tree/35084a05198e7130f96cd2fd5f909cd497cd33e5/ml/docs/lectures)
   
 #### How to run
   * $> python -m venv ml_course_env
@@ -54,5 +57,3 @@ Lectures and exercises PDFs are available under ml/docs directory.
   * main.py scripts starts the execution of all exercises.
   * Although **notebooks also exist** for each exercise under **ml/** directory
 
-#### Course lectures
-  * [Lectures PDFs](https://github.com/farjan/MachineLearning/tree/35084a05198e7130f96cd2fd5f909cd497cd33e5/ml/docs/lectures)

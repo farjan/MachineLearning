@@ -32,7 +32,7 @@ Lectures and exercises PDFs are available under ml/docs directory.
       [Notebook](https://github.com/farjan/MachineLearning/blob/3d961fe1d41250ee5eaa3dc08a141c7ede06364a/ml/Exercise%207%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb)
   * Programming Exercise 8: **Anamoly Detection Recommender Systems**
       [PDF](https://raw.githubusercontent.com/farjan/MachineLearning/master/ml/docs/exercises/ex8.pdf)
-      [Notebook]()
+      [Notebook](https://github.com/farjan/MachineLearning/blob/750c4af64268112e22e6b8e9ba2443463d2b818a/ml/Exercise%208%20Anomaly%20Detection%20and%20Recommender%20Systems.ipynb)
   
 #### How to run
   * $> python -m venv ml_course_env

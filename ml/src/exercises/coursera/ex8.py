@@ -121,7 +121,7 @@ class Exercise8(object):
 
     # From the matrix, we can compute statistics like average rating.
     print('Average rating for movie 1 (Toy Story): {} / 5'.
-          format(np.mean(Y[0,[R[0,:]]])))
+          format(np.mean(Y[0, R[0, :].astype(int) ])))
 
     # We can "visualize" the ratings matrix.
     print('Visualizing the ratings matrix...')
@@ -313,7 +313,7 @@ class Exercise8(object):
       (list): List of movies.
     '''
     movie_list = list()
-    f = open(self.datafname_movie_ids)
+    f = open(self.datafname_movie_ids, 'r', encoding='ISO-8859-1')
     for l in f:
       movie_list.append(l[l.find(' '):].strip())
     f.close()

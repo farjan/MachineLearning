@@ -84,9 +84,9 @@ class AnomalyDetector(object):
 
     for epsilon in epsilons:
       pred = pval < epsilon
-      tp = self.__tp(pred, yval)
-      fp = self.__fp(pred, yval)
-      fn = self.__fn(pred, yval)
+      tp = self._tp(pred, yval)
+      fp = self._fp(pred, yval)
+      fn = self._fn(pred, yval)
 
       prec = 0.0
       if tp + fp > 0:
@@ -155,7 +155,7 @@ class AnomalyDetector(object):
     plt.show()
 
 
-  def __tp(self, pred, yval):
+  def _tp(self, pred, yval):
     '''
     tp is the number of true positives: The ground truth
     label says it's an anomaly and our algorithm correctly 
@@ -175,7 +175,7 @@ class AnomalyDetector(object):
     return c
 
 
-  def __fp(self, pred, yval):
+  def _fp(self, pred, yval):
     '''
     fp is the number of false positives: The ground
     truth label says it's not an anomaly, but our algorithm
@@ -195,7 +195,7 @@ class AnomalyDetector(object):
     return c
 
 
-  def __fn(self, pred, yval):
+  def _fn(self, pred, yval):
     '''
     fn is the number of false negatives: The ground 
     truth label says it's an anomaly, but our algorithm 
